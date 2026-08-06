@@ -1,6 +1,6 @@
 /* Reset some default styles */
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 body, h1, h2, h3, p, ul, li {
@@ -10,13 +10,13 @@ body, h1, h2, h3, p, ul, li {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #F4EFE6;
-    color: #3A2D28;
+    background-color: #F5F1E8; 
+    color: #3E2F26; 
 }
 
 header {
-    background-color: #FDFBF7;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #FCFAF6;
+    box-shadow: 0 2px 5px rgba(62, 47, 38, 0.1);
     padding: 20px;
 }
 
@@ -38,13 +38,13 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    color: #3A2D28;
+    color: #3E2F26; 
     font-weight: bold;
     transition: color 0.3s;
 }
 
 nav a:hover {
-    color: #C7A17A;
+    color: #5F7A4C; 
 }
 
 .hero {
@@ -52,54 +52,58 @@ nav a:hover {
     padding: 150px 0;
     background-image: url('hero-bg.jpg');
     background-size: cover;
-    color: #3A2D28;
+    background-position: center;
+    color: #3E2F26;
 }
 
 .hero h1 {
     font-size: 36px;
     margin-bottom: 20px;
-    color: #3A2D28;
+    color: #3E2F26;
     text-shadow: 1px 1px 5px rgba(255,255,255,0.7);
 }
 
 .hero p {
     font-size: 18px;
     margin-bottom: 40px;
-    color: #4D403A;
+    color: #6C5644; 
 }
 
 .cta-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #3A2D28;
+    background-color: #6F4E37; 
     color: white;
     text-decoration: none;
     border-radius: 5px;
 }
 
 .cta-button:hover {
-    background-color: #7C9A6D;
+    background-color: #7E9A6A;
 }
 
 .menu {
     padding: 100px 0;
     text-align: center;
+    background-color: #F5F1E8;
 }
 
 .menu h2 {
     font-size: 30px;
     margin-bottom: 20px;
+    color: #3E2F26;
 }
 
 .about {
     padding: 100px 0;
     text-align: center;
-    background-color: #E8DED0
+    background-color: #E8DCC8;
 }
 
 .about h2 {
     font-size: 30px;
     margin-bottom: 20px;
+    color: #3E2F26;
 }
 
 .about p {
@@ -107,18 +111,20 @@ nav a:hover {
     max-width: 700px;
     margin: 0 auto;
     line-height: 1.8;
+    color: #6C5644;
 }
 
 .contact {
     padding: 100px 0;
     text-align: center;
-    background-color: #3A2D28;
+    background-color: #3A2A23; 
     color: white;
 }
 
 .contact h2 {
     font-size: 30px;
     margin-bottom: 20px;
+    color: #FFFFFF;
 }
 
 .contact p {
@@ -126,14 +132,16 @@ nav a:hover {
     max-width: 700px;
     margin: 0 auto;
     line-height: 1.8;
+    color: #F5F1E8;
 }
 
 footer {
-    background-color: #3A2D28;
-    color: white;
+    background-color: #3A2A23; 
+    color: #F5F1E8;
     text-align: center;
     padding: 20px 0;
 }
+
 .menu-img {
     width: 450px;
     height: auto;
