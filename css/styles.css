@@ -8,13 +8,14 @@ body, h1, h2, h3, p, ul, li {
 }
 
 h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
     text-decoration: underline;
     text-decoration-color: #7C9A6D;
     text-underline-offset: 8px;
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-color: #F4EFE6;
     color: #3A2D28;
     display: flex;
