@@ -124,3 +124,9 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
+
+.menu-img {
+    width: 450px;
+    height: auto;
+    border-radius: 25%;
+}
