@@ -7,6 +7,12 @@ body, h1, h2, h3, p, ul, li {
     padding: 0;
 }
 
+h1, h2, h3 {
+    text-decoration: underline;
+    text-decoration-color: #7C9A6D;
+    text-underline-offset: 8px;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #F4EFE6;
